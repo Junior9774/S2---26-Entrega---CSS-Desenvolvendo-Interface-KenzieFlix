@@ -1,0 +1,112 @@
+body{
+   background-color:#121214;
+   color: rgb(255, 255, 255);
+   font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+   margin: 0 auto;   
+}
+
+.container{
+    display: flex;
+    max-height: 800px;
+    width: 700px;
+    margin: 0 auto;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+}   
+
+.logo{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pergunta{
+   font-size:30px;
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+   margin: 20px 0px 20px 0px;
+}
+
+ul{ 
+    display: flex;
+    list-style: none;
+    text-align-last: center;    
+    max-width: 700px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+   
+.perfil{ 
+    width: 160px;
+    border-radius:10px;
+    margin: 10px;
+}
+
+figcaption{
+    margin:25px 0px 25px 0px;
+    color: #727272;
+}
+
+.perfil:hover{ 
+        font-weight: 700;
+}
+
+.add{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e20;
+    height: 160px;
+    width: 160px;
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.add:hover{
+    border:2px solid #ffffff;
+    border-radius: 10px;    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 200px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    
+}
+
+.botao a{ 
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.botao:hover{   
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    font-weight: 900;
+   
+
+}
+
+.botao a:hover{
+    color: #292a2d;
+}
